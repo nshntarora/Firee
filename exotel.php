@@ -1,17 +1,14 @@
 <?php
 $post_data = array(
-    'From' => "<Your-Customer's-Number>",
-    'To' => "<Your-Exotel-Landline-or-Mobile>",
-    'CallerId' => "<Your-Exotel-virtual-number>",
-    'Url' => "http://my.exotel.in/exoml/start/<flow_id>",
-    'TimeLimit' => "<time-in-seconds>", //This is optional
-    'TimeOut' => "<time-in-seconds>", //This is also optional
+    'From' => $_GET['twhandle'],
+    'To' => "9620821452",
+    'CallerId' => "08039511718",
+    'Url' => "http://my.exotel.in/exoml/start/60166",
     'CallType' => "trans"
-    'StatusCallback' => "<http//: your company URL>" //This is also also optional
 );
  
-$exotel_sid = "xxxx"; // Your Exotel SID - Get it here: http://my.exotel.in/Exotel/settings/site#exotel-settings
-$exotel_token = "xxxx"; // Your exotel token - Get it here: http://my.exotel.in/Exotel/settings/site#exotel-settings
+$exotel_sid = "bla56"; // Your Exotel SID - Get it here: http://my.exotel.in/Exotel/settings/site#exotel-settings
+$exotel_token = "a3ae366ed3daadc288731b87bd94c9a815d86716"; // Your exotel token - Get it here: http://my.exotel.in/Exotel/settings/site#exotel-settings
  
 $url = "https://".$exotel_sid.":".$exotel_token."@twilix.exotel.in/v1/Accounts/".$exotel_sid."/Calls/connect";
  

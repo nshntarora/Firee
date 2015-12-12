@@ -30,7 +30,7 @@
 					</div>
 				</form>	-->
 				<form action="result.php" method="get">
-				<input type=text name=twhandle class="form-control input-custom" placeholder="handle of the lucky person" />
+				<input type="text" name="twhandle" class="form-control input-custom" placeholder="handle of the lucky person" />
 				<br>
 				<input type="submit" value="Submit" class="btn btn-default" style="font-size: 45px;">
 				</form>
