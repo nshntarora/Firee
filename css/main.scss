@@ -1,0 +1,23 @@
+.cover{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.header{
+	button{
+		margin-top: 10px;
+		height: 45px;
+		width: 190px;
+	}
+	.input-custom{
+		height: 56px;
+		font-size: 27px;
+
+	}
+
+	@media screen and (max-width: 768px) {
+	  button{
+	  	width: 100%;
+	  }
+	}
+}

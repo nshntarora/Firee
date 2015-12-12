@@ -1,0 +1,16 @@
+.cover {
+  padding-left: 0;
+  padding-right: 0; }
+
+.header button {
+  margin-top: 10px;
+  height: 45px;
+  width: 190px; }
+.header .input-custom {
+  height: 56px;
+  font-size: 27px; }
+@media screen and (max-width: 768px) {
+  .header button {
+    width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */
