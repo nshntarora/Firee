@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700,300);
+body {
+  font-family: Oxygen; }
+
 .cover {
   padding-left: 0;
   padding-right: 0; }
@@ -12,5 +16,25 @@
 @media screen and (max-width: 768px) {
   .header button {
     width: 100%; } }
+
+.jumbotron {
+  background-color: #fff;
+  text-align: center; }
+
+.jumbotron .pitch {
+  margin: 10px 30px 50px;
+  line-height: 1.2em; }
+
+.logo {
+  width: 35%;
+  margin-top: 3%; }
+
+.footer {
+  width: 70%;
+  margin: 0px auto; }
+
+.footer-description {
+  text-align: center;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */
