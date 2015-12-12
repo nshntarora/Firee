@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,700,300);
 body {
-	font-family: Oxygen;
+	font-family: "Dosis", sans-serif;
 }
 .cover{
 	padding-left: 0;
@@ -16,7 +16,7 @@ body {
 	.input-custom{
 		height: 56px;
 		font-size: 27px;
-
+		border: 1px solid #000;
 	}
 
 	@media screen and (max-width: 768px) {
@@ -28,6 +28,7 @@ body {
 .jumbotron {
 	background-color: #fff;
 	text-align: center;
+
 }
 .jumbotron .pitch {
 	margin: 10px 30px 50px;
@@ -44,4 +45,14 @@ body {
 .footer-description {
 	text-align: center;
 	margin-bottom: 20px;
+}
+.btn-default {
+	background-color: #ffcc00;
+	color: #000;
+	border: 1px solid #000;
+}
+.btn-default:hover {
+	background-color: #E4B600;
+	color: #000;
+	border: 1px solid #000;
 }
