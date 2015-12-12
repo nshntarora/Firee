@@ -23,6 +23,11 @@
 						echo "<h1>He's already having a bad day</h1>";
 					?>
 			</div>
+			<form action="exotel.php" method="get">
+				<input type="number" name=twhandle class="form-control input-custom" placeholder="number of the lucky person" />
+				<br>
+				<input type="submit" value="Submit" class="btn btn-default" style="font-size: 45px;">
+				</form>
 			<div class="footer">
 			<p class="footer-description"><i>Firing is as important as hiring. Seriously. We're not Kidding. </i>
 
