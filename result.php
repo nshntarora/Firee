@@ -14,21 +14,12 @@
 		<div class="container container-fluid cover">
 		<center><img src="images/logo.png" class="logo"></center>
 			<div class="jumbotron header">
-				<h1 class="pitch">Know if it is a good day to fire one of your employees. Then fire them.</h1>
-				<form>
-					<div class="row">
-						<div class="col-xs-12 col-sm-6 col-sm-offset-3">
-							<div class="form-group">
-								<input class="form-control input-custom" type="text" placeholder="Enter Your Twitter Handle" id="twitterhandle">
-								<div class="row">
-									<div class="col-xs-12 col-sm-6 col-sm-offset-3">
-										<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-send"></span> &nbsp;Should I fire him today?</button>
-									</div>	
-								</div>
-							</div>	
-						</div>
-					</div>
-				</form>	
+				<?php 
+					$handle = $_GET['twhandle'];
+					$res = file_get_contents("http://52.26.83.82:5000/tweets/".$handle); 
+					if($res == 1)
+						echo "<h2>Fire Him!!</h2>";
+					?>
 			</div>
 			<div class="footer">
 			<p class="footer-description"><i>Firing is as important as hiring. Seriously. We're not Kidding. </i>
