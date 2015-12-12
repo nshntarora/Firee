@@ -16,9 +16,11 @@
 			<div class="jumbotron header">
 				<?php 
 					$handle = $_GET['twhandle'];
-					$res = file_get_contents("http://52.26.83.82:5000/tweets/".$handle); 
+					$res = file_get_contents("http://localhost:5000/tweets/".$handle); 
 					if($res == 1)
-						echo "<h2>Fire Him!!</h2>";
+						echo "<h1>Fire Him!!</h1>";
+					else
+						echo "<h1>He's already having a bad day</h1>";
 					?>
 			</div>
 			<div class="footer">
