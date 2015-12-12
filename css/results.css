@@ -2,8 +2,13 @@
   box-sizing: border-box; }
 
 .image {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 30px; }
   .image img {
-    height: 100px; }
+    height: 100px;
+    margin: 0px auto; }
+
+.box {
+  border: 1px solid #000; }
 
 /*# sourceMappingURL=results.css.map */
