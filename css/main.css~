@@ -1,0 +1,23 @@
+.bggreen{
+	background: green;
+}
+
+.bgred{
+	background: red;
+}
+
+.border{
+	border: 1px solid black;
+}
+
+.break{
+	word-wrap: break-word;
+}
+
+.progress-bar{
+	width: 2%;
+}
+
+.center{
+	margin: 5% auto;
+}
